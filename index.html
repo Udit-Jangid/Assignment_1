@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Josefin Sans', sans-serif;
+            background-color: rgb(211, 229, 229);
+            margin: 20px;
+        }
+
+        th,
+        td {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">Assignment 1</h1>
+    <h3 style="text-align: center;">Simple HTML Webpage</h3>
+    <p style="color:indigo; font-size: 20px; text-align:justify;">My name is <b>Udit Jangid</b>. Lorem ipsum dolor sit
+        amet, consectetur adipisicing elit. Natus veritatis<i><u>praesentium cum saepe</u></i>explicabo dolore a maxime
+        blanditiis enim,
+        fugiat nam autem reiciendis tempora illo eaque eveniet obcaecati earum consequatur. <br><br> Lorem ipsum dolor
+        sit amet consectetur adipisicing elit. Ad, eos
+        voluptate consequuntur ipsa dicta eius mollitia architecto, similique veritatis quidem cumque et. Dicta
+        voluptate omnisillum, ab odio, velit placeat deleniti, corrupti alias nostrum dolore fugiat. Pariatur eum
+        commodi debitis
+        voluptatem libero consequuntur minima porro quaerat odio asperiores ullam, recusandae illum iusto placeat
+        consequatur totam facilis autem suscipit consectetur fuga nam! Tenetur vel ipsum tempora fugit molestias maiores
+        iure a atque numquam sint quae, cumque, voluptate doloribus neque ipsam, fuga dolor similique obcaecati porro
+        maxime! Aliquam quisquam sint, cupiditate animi harum labore. Ut tempora ratione quod maxime natus atque
+        molestiae.
+    </p>
+    <div style="font-size: 18px; display: flex; align-content:space-between;">
+        <div style="margin-left: auto; margin-right: auto;">
+            <h3>Formulas :</h3>
+            <ul>
+                <li>C + O<sub>2</sub> &#8594; CO<sub>2</sub></li>
+                <li>(a + b)<sup>2</sup> &#61; a<sup>2</sup> + b<sup>2</sup> + 2ab</li>
+            </ul>
+        </div>
+
+        <div style="margin-left: auto; margin-right: auto;">
+            <h3>Fruits :</h3>
+            <ol>
+                <li>Banana</li>
+                <li>Mango</li>
+                <li>Strawberry</li>
+                <li>Orange</li>
+            </ol>
+        </div>
+
+        <div style="margin-left: auto; margin-right: auto;">
+            <h3>Shapes :</h3>
+            <ul style="list-style-type:square;">
+                <li>Circle</li>
+                <li>Triangle</li>
+                <li>Rectangle</li>
+                <li>Square</li>
+            </ul>
+        </div>
+    </div>
+
+    <h3 style="text-align: center;">Student :</h3>
+    <table border="2px solid black;" style="margin:auto ;">
+        <tr>
+            <th rowspan="2">Roll_No</th>
+            <th rowspan="2">Name</th>
+            <th colspan="3">Marks</th>
+        </tr>
+        <tr>
+            <td>Physics</td>
+            <td>Maths</td>
+            <td>Chemistry</td>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Abhi</td>
+            <td>60</td>
+            <td>80</td>
+            <td>70</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Chirag</td>
+            <td>40</td>
+            <td>70</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Divyansh</td>
+            <td>90</td>
+            <td>70</td>
+            <td>82</td>
+        </tr>
+        <tr>
+            <td>104</td>
+            <td>Harsh</td>
+            <td>79</td>
+            <td>82</td>
+            <td>68</td>
+        </tr>
+        <tr>
+            <td>105</td>
+            <td>Lokesh</td>
+            <td>68</td>
+            <td>89</td>
+            <td>70</td>
+        </tr>
+    </table>
+
+
+    <div style="padding-top:50px;">
+        <h3 style="text-align: center;">Register :</h3>
+        <div style="display: flex; justify-content: center;">
+            <div style="border:2px solid black; width: 580px;">
+                <form style="font-size: 20px;">
+                    <label for="fname">First name:</label>
+                    <input type="text" id="fname" name="fname" style="width: 275px; margin-left: 90px;"><br>
+                    <label for="lname">Last name:</label>
+                    <input type="text" id="lname" name="lname" style="width: 275px; margin-left: 90px;"><br>
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" id="birthday" name="birthday" style="width: 275px; margin-left: 109px;"><br>
+                    <label for="phone">Mobile no:</label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}"
+                        style="width: 275px; margin-left: 95px;"><br><br>
+                    <label for="Select">Gender:</label>
+                    <input type="radio" id="html" name="gender" value="male">
+                    <label for="html" style="margin: 9px;">Male</label>
+                    <input type="radio" id="css" name="gender" value="female">
+                    <label for="css" style="margin: 9px;">Female</label>
+                    <input type="radio" id="css" name="gender" value="other">
+                    <label for="css" style="margin: 9px;">Other</label><br><br>
+                    <label for="uname">Username:</label>
+                    <input type="text" id="uname" name="uname" style="width: 275px; margin-left: 95px;"><br>
+                    <label for="email">Enter your email:</label>
+                    <input type="email" id="email" name="email" style="width: 275px; margin-left: 36px;"><br>
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" name="pwd" style="width: 275px; margin-left: 103px;"><br>
+                    <label for="pwd">Confirm Password:</label>
+                    <input type="password" id="cpwd" name="cpwd" style="width: 275px; margin-left: 25px;"><br><br>
+                    <label for="message">Any Querry:</label>
+                    <textarea name="message" rows="10" cols="74">
+                    </textarea>
+                    <input type="submit" value="Submit" style="margin: 0px 230px; font-size: 20px;">
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
